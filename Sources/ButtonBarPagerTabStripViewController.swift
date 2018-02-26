@@ -168,8 +168,8 @@ open class ButtonBarPagerTabStripViewController: PagerTabStripViewController, Pa
         //-
     }
 
-    open override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    open override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         buttonBarView.layoutIfNeeded()
     }
 
